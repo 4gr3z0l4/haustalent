@@ -5,10 +5,10 @@ export const siteData = {
   email: "info@haustalent.com",
   address: "C/ Velázquez, 27, 1º ext. izda., 28001 Madrid",
   manifesto: [
-    "HAUS TALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.",
-    "Nace de la iniciativa de profesionales con una experiencia acumulada de más de 20 años en los distintos ámbitos de la construcción especializada.",
-    "Cada proyecto se aborda desde la precisión técnica, la atención al detalle y una ejecución cuidada.",
-  ],
+  'HAUS TALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.',
+  'Nace de la iniciativa de profesionales con una experiencia acumulada de más de 20 años en los distintos ámbitos de la construcción especializada.',
+  'Cada intervención se aborda desde la precisión técnica, la atención al detalle y una ejecución a la altura de su singularidad.'
+],
   expertise: [
     {
       title: "Construcción singular",

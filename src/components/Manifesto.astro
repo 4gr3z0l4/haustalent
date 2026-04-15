@@ -1,0 +1,26 @@
+---
+import { siteData } from '../content/site';
+---
+
+<section
+  id="manifesto"
+  class="bg-brand-ivory text-brand-blue"
+>
+  <div class="container-shell py-24 md:py-32">
+    <div class="mx-auto flex max-w-4xl flex-col items-center text-center">
+      <p class="mb-6 text-[11px] uppercase tracking-[0.32em] text-brand-gold">
+        Firma
+      </p>
+
+      <h2 class="max-w-4xl font-serif text-4xl leading-tight md:text-6xl">
+        Una manera precisa y contenida de abordar cada proyecto.
+      </h2>
+
+      <div class="mt-14 flex max-w-3xl flex-col gap-10 text-balance text-lg leading-9 text-brand-blue/78 md:text-[1.45rem] md:leading-[2.2rem]">
+        <p>{siteData.manifesto[0]}</p>
+        <p>{siteData.manifesto[1]}</p>
+        <p>{siteData.manifesto[2]}</p>
+      </div>
+    </div>
+  </div>
+</section>

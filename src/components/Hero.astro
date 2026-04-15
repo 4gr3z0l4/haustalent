@@ -46,13 +46,24 @@ import { siteData } from '../content/site';
       </div>
     </div>
 
-    <div class="flex justify-center pb-4">
+        <div class="flex justify-center pb-6">
       <a
         href="#manifesto"
-        aria-label="Desplazarse hacia el contenido"
-        class="flex h-14 w-14 items-center justify-center rounded-full border border-brand-line text-brand-ivory transition duration-300 hover:border-brand-gold hover:text-brand-gold"
+        aria-label="Desplazarse hacia el manifiesto"
+        class="group flex flex-col items-center gap-3 text-[10px] uppercase tracking-[0.35em] text-brand-muted transition-colors duration-300 hover:text-brand-gold"
       >
-        <span class="text-2xl leading-none">⌄</span>
+        <span class="h-12 w-px bg-brand-line transition-all duration-300 group-hover:h-16 group-hover:bg-brand-gold/70"></span>
+        <span>Descubrir</span>
+        <svg
+          class="h-4 w-4 transition-transform duration-300 group-hover:translate-y-1"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          aria-hidden="true"
+        >
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
       </a>
     </div>
   </div>
