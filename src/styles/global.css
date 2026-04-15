@@ -6,6 +6,14 @@
   --color-brand-ivory: #f4efe8;
   --color-brand-stone: #d8d2c8;
   --color-brand-text: #f7f3ec;
+  --color-brand-muted: rgba(244, 239, 232, 0.72);
+  --color-brand-line: rgba(244, 239, 232, 0.16);
+
+  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Inter", Arial, sans-serif;
+
+  --content-narrow: 42rem;
+  --content-default: 72rem;
 }
 
 @theme {
@@ -14,8 +22,11 @@
   --color-brand-ivory: var(--color-brand-ivory);
   --color-brand-stone: var(--color-brand-stone);
   --color-brand-text: var(--color-brand-text);
-  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
-  --font-sans: "Inter", Arial, sans-serif;
+  --color-brand-muted: var(--color-brand-muted);
+  --color-brand-line: var(--color-brand-line);
+
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
 }
 
 html {
@@ -29,11 +40,39 @@ body {
   font-family: var(--font-sans);
 }
 
-h1, h2, h3, h4 {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
   font-family: var(--font-serif);
   font-weight: 500;
+  line-height: 1;
 }
 
 p {
+  margin: 0;
   line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-shell {
+  width: min(100% - 2rem, var(--content-default));
+  margin-inline: auto;
 }
