@@ -1,1 +1,59 @@
-<section>Hero</section>
+---
+import { siteData } from '../content/site';
+---
+
+<section
+  id="top"
+  class="relative flex min-h-screen items-center bg-brand-blue text-brand-text"
+>
+  <div class="container-shell flex min-h-screen flex-col justify-between py-8 md:py-10">
+    <header class="flex items-center justify-between">
+      <a
+        href="#top"
+        class="text-[11px] uppercase tracking-[0.32em] text-brand-muted transition-colors duration-300 hover:text-brand-ivory"
+      >
+        HAUS TALENT
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.28em] text-brand-muted">
+        <a href="#manifesto" class="transition-colors duration-300 hover:text-brand-ivory">Firma</a>
+        <a href="#expertise" class="transition-colors duration-300 hover:text-brand-ivory">Especialización</a>
+        <a href="#contact" class="transition-colors duration-300 hover:text-brand-ivory">Contacto</a>
+      </nav>
+    </header>
+
+    <div class="flex flex-1 items-center justify-center py-12">
+      <div class="flex max-w-3xl flex-col items-center text-center">
+        <img
+          src="/images/haustalent-logo-gold.png"
+          alt="Logotipo de HAUS TALENT"
+          class="mb-8 w-[160px] md:w-[220px]"
+          width="220"
+          height="220"
+        />
+
+        <h1 class="font-serif text-5xl tracking-[0.04em] text-brand-ivory md:text-7xl">
+          {siteData.brand}
+        </h1>
+
+        <p class="mt-3 text-lg text-brand-gold md:text-2xl">
+          {siteData.tagline}
+        </p>
+
+        <p class="mt-8 max-w-2xl text-base leading-8 text-brand-muted md:text-lg">
+          {siteData.claim}
+        </p>
+      </div>
+    </div>
+
+    <div class="flex justify-center pb-4">
+      <a
+        href="#manifesto"
+        aria-label="Desplazarse hacia el contenido"
+        class="flex h-14 w-14 items-center justify-center rounded-full border border-brand-line text-brand-ivory transition duration-300 hover:border-brand-gold hover:text-brand-gold"
+      >
+        <span class="text-2xl leading-none">⌄</span>
+      </a>
+    </div>
+  </div>
+</section>
