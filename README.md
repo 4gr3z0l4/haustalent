@@ -1,43 +1,114 @@
-# Astro Starter Kit: Minimal
+# 🌐 HAUSTALENT
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Nueva web corporativa de **HAUSTALENT**, desarrollada con [Astro](https://astro.build/) y desplegada en Netlify.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+HAUSTALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.
 
-## 🚀 Project Structure
+## 🛠 Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+- [Astro](https://astro.build/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- HTML semántico
+- Despliegue en [Netlify](https://www.netlify.com/)
+
+## 📌 Proyecto
+
+Este repositorio contiene el desarrollo de la nueva web de HAUSTALENT, planteada como una **one-page corporativa** con una línea visual más sobria, premium y arquitectónica que la web anterior.
+
+La web está construida con una estructura ligera basada en componentes Astro y contenido centralizado.
+
+## 📎 Estructura
 
 ```text
-/
+.
 ├── public/
+│   ├── apple-touch-icon.png
+│   ├── favicon.ico
+│   └── images/
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   ├── pages/
+│   └── styles/
+├── astro.config.mjs
+├── package.json
+└── README.md
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Desarrollo local
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Clona el repositorio:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```bash
+git clone https://github.com/4gr3z0l4/haustalent.git
+cd haustalent
+```
 
-## 🧞 Commands
+Instala dependencias:
 
-All commands are run from the root of the project, from a terminal:
+```bash
+npm install
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Inicia el entorno de desarrollo:
 
-## 👀 Want to learn more?
+```bash
+npm run dev
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+La web quedará disponible normalmente en:
+
+```text
+http://localhost:4321
+```
+
+## Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+```
+
+## Build de producción
+
+Para generar la versión final:
+
+```bash
+npm run build
+```
+
+Astro generará los archivos estáticos listos para despliegue en la carpeta `dist/`.
+
+## Despliegue
+
+El proyecto está pensado para desplegarse en **Netlify**.
+
+Dominio canónico previsto:
+
+```text
+https://haustalent.com
+```
+
+La intención es usar `haustalent.com` como dominio principal y evitar que los motores de búsqueda indexen la URL técnica de Netlify como versión preferida.
+
+## SEO
+
+La configuración SEO base del proyecto contempla:
+
+- dominio canónico definido en Astro
+- etiquetas `title` y `description`
+- `robots.txt`
+- `sitemap`
+- favicon y `apple-touch-icon`
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia **MIT**.
+
+Puedes consultar el archivo `LICENSE` para más información.
+
+## 👨‍💻 Autor
+
+Desarrollado por Álvaro García Rezola
