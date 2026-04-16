@@ -1,5 +1,5 @@
 export const siteData = {
-  brand: "HAUS TALENT",
+  brand: "HAUSTALENT",
   claim: "Construcción y rehabilitación de carácter singular",
   tagline: "Exclusive · Unique · Distinctive",
   email: "info@haustalent.com",
@@ -7,7 +7,7 @@ export const siteData = {
   contactIntro:
     'Si desea realizar una consulta o recibir asesoramiento, estaremos encantados de atenderle.',
   manifesto: [
-    "HAUS TALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.",
+    "HAUSTALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.",
     "Nace de la iniciativa de profesionales con una experiencia acumulada de más de 20 años en los distintos ámbitos de la construcción especializada.",
     "Cada intervención se aborda desde la precisión técnica, la atención al detalle y una ejecución a la altura de su singularidad.",
   ],
