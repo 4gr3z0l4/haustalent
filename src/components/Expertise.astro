@@ -1,1 +1,32 @@
-<section>Expertise</section>
+---
+import { siteData } from '../content/site';
+---
+
+<section
+  id="expertise"
+  class="bg-brand-ivory text-brand-blue"
+>
+  <div class="container-shell py-20 md:py-28">
+    <div class="grid gap-14 border-t border-brand-blue/12 pt-10 md:grid-cols-[0.9fr_2fr] md:gap-16 md:pt-14">
+      <div>
+        <p class="text-[11px] uppercase tracking-[0.32em] text-brand-gold">
+          Especialización
+        </p>
+      </div>
+
+      <div class="grid gap-10 md:gap-12">
+        {siteData.expertise.map((item) => (
+          <article class="grid gap-4 border-b border-brand-blue/10 pb-8 md:grid-cols-[1fr_1.4fr] md:gap-10">
+            <h3 class="font-serif text-3xl leading-tight md:text-4xl">
+              {item.title}
+            </h3>
+
+            <p class="max-w-2xl text-base leading-8 text-brand-blue/72 md:text-lg md:leading-9">
+              {item.text}
+            </p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
