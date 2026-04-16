@@ -4,11 +4,13 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  canonical?: string;
 }
 
 const {
   title = 'HAUSTALENT',
-  description = 'Construcción y rehabilitación de edificios singulares e instalaciones deportivas.'
+  description = 'Construcción y rehabilitación de edificios singulares e instalaciones deportivas.',
+  canonical = new URL(Astro.url.pathname, Astro.site).toString()
 } = Astro.props;
 ---
 
@@ -25,6 +27,21 @@ const {
   href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
   rel="stylesheet"
 />
+  /x-icon" href="/favicon.ico" />
+  /apple-touch-icon.png" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1d3157" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="HAUS TALENT" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
   </head>
   <body>
     <slot />
