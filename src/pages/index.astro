@@ -2,14 +2,22 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Hero from '../components/Hero.astro';
 import Manifesto from '../components/Manifesto.astro';
+import Expertise from '../components/Expertise.astro';
+import VisualBand from '../components/VisualBand.astro';
+import ContactBlock from '../components/ContactBlock.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <MainLayout
-  title="HAUS TALENT"
+  title="HAUSTALENT"
   description="Construcción y rehabilitación de edificios singulares e instalaciones deportivas."
 >
   <main>
     <Hero />
     <Manifesto />
+    <Expertise />
+    <VisualBand />
+    <ContactBlock />
   </main>
+  <Footer />
 </MainLayout>

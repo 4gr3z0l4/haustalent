@@ -1,1 +1,28 @@
-<footer>Footer</footer>
+---
+import { siteData } from '../content/site';
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-brand-blue text-brand-ivory">
+  <div class="container-shell border-t border-brand-line py-6 md:py-8">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <a
+        href="#top"
+        class="text-[11px] uppercase tracking-[0.32em] text-brand-gold transition-colors duration-300 hover:text-brand-ivory"
+      >
+        {siteData.brand}
+      </a>
+
+      <p class="text-sm text-brand-muted">
+        © {currentYear} {siteData.brand}
+      </p>
+
+      <a
+        href={`mailto:${siteData.email}`}
+        class="text-sm text-brand-muted transition-colors duration-300 hover:text-brand-gold"
+      >
+        {siteData.email}
+      </a>
+    </div>
+  </div>
+</footer>
