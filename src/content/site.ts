@@ -1,6 +1,5 @@
 export const siteData = {
   brand: "HAUSTALENT",
-  claim: "Construcción y rehabilitación de carácter singular",
   tagline: "Exclusive · Unique · Distinctive",
   email: "info@haustalent.com",
   address: "C/ Velázquez, 27, 1º ext. izda., 28001 Madrid",
