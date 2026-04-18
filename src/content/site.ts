@@ -6,22 +6,22 @@ export const siteData = {
   contactIntro:
     "Si desea realizar una consulta o recibir asesoramiento, estaremos encantados de atenderle.",
   manifesto: [
-    "HAUSTALENT es una empresa especializada en la construcción y rehabilitación de edificios singulares e instalaciones deportivas.",
-    "Nace de la iniciativa de profesionales con una experiencia acumulada de más de 20 años en los distintos ámbitos de la construcción especializada.",
-    "Cada intervención se aborda desde la precisión técnica, la atención al detalle y una ejecución a la altura de su singularidad.",
+    "HAUSTALENT es una firma centrada en la gestión y desarrollo de activos singulares e intervenciones de especial complejidad.",
+    "Nace de la iniciativa de profesionales con una trayectoria consolidada de más de 30 años en distintos ámbitos técnicos y de proyecto.",
+    "Cada actuación se aborda desde el criterio, la coordinación, la atención al detalle y una ejecución cuidada en todas sus fases.",
   ],
   expertise: [
     {
-      title: "Construcción singular",
-      text: "Obras que requieren control técnico, coordinación precisa y una ejecución especialmente cuidada.",
+      title: "Proyectos singulares",
+      text: "Actuaciones que requieren criterio técnico, coordinación precisa y especial cuidado en cada fase.",
     },
     {
-      title: "Rehabilitación",
-      text: "Obras de rehabilitación desarrolladas con precisión técnica, coordinación y especial cuidado en la ejecución.",
+      title: "Intervenciones en activos",
+      text: "Procesos desarrollados con atención al detalle, enfoque técnico y una visión global de conjunto.",
     },
     {
-      title: "Instalaciones deportivas",
-      text: "Espacios donde rendimiento, durabilidad y atención al detalle forman parte del mismo criterio de proyecto.",
+      title: "Espacios especializados",
+      text: "Entornos donde funcionalidad, durabilidad y coherencia forman parte de un mismo planteamiento.",
     },
   ],
 };
