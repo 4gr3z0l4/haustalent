@@ -6,9 +6,9 @@ export const siteData = {
   contactIntro:
     "Si desea realizar una consulta o recibir asesoramiento, estaremos encantados de atenderle.",
   manifesto: [
-    "HAUSTALENT es una firma centrada en la gestión y desarrollo de activos singulares e intervenciones de especial complejidad.",
-    "Nace de la iniciativa de profesionales con una trayectoria consolidada de más de 30 años en distintos ámbitos técnicos y de proyecto.",
-    "Cada actuación se aborda desde el criterio, la coordinación, la atención al detalle y una ejecución cuidada en todas sus fases.",
+    "HAUSTALENT es una firma centrada en la gestión y desarrollo de activos singulares e intervenciones de especial complejidad",
+    "Nace de la iniciativa de profesionales con una trayectoria consolidada de más de 30 años en distintos ámbitos técnicos y de proyecto",
+    "Cada actuación se aborda desde el criterio, la coordinación, la atención al detalle y una ejecución cuidada en todas sus fases",
   ],
   expertise: [
     {
